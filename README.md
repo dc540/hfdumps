@@ -21,8 +21,10 @@ I added a script to begin the process of unpacking what's contained in the Mifar
 than anything it's to help me to understan the structures.  I can't stress enough that I'm
 fairly new at this. RFID contains worlds, and I'm barely scratching the surface. I look at
 the content in the Proxmark forums and I wonder if I'm even interested in knowing as much as
-some of them do. But I'm encouraged by the fact that there are ialso people posting in there that 
+some of them do. But I'm encouraged by the fact that there are also people posting in there that 
 appear to be dumber than me. :)
+
+Dumps from DEFCON hotel keys are in a separate directory, because why not?
 
 Please follow @dc540_nova to keep abreast of future developments and projects by the DC540 group.
 We're growing and we have big dreams.
