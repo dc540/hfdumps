@@ -6,7 +6,7 @@ Of my DEFCON batch, 10 of 13 (>75%) have no data beyond sector zero, block zero.
 
 What's the pattern here?
 
-Initial thoughts: Since sector zero block zero is normally unwritable, the Vegas hotels are security-forward, using NOTHING in the writable zones for authentication. So that scammers armed with a Proxmark can't easily wreak havoc on their systems.
+Initial thoughts: Since sector zero block zero is normally unwritable, perhaps the Vegas hotels are security-forward, using NOTHING in the writable zones for authentication. So that scammers armed with a Proxmark can't easily wreak havoc on their systems. However, this must be tempered by the knowledge that I picked up some of these cards on eBay after the con; i.e., they might have been sold by a rogue hotel employee and never have actually been issued, which could explain the lack of data.
 
 It's possible that the six non-DEFCON cards I have are also from Vegas hotels. Without more information, that's hard to tell.
 
