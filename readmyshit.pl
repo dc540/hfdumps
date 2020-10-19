@@ -17,7 +17,7 @@ sub processCard {
   print "Processing $thisCard...\n";
   open CARD, "$thisCard" or die $!;
   $bh0=<CARD>;
-  print "Card $cardNum Block 0 header: \n  $bh0";
+  print "Card $cardNum Sector 0 header: \n  $bh0";
   $bh01=<CARD>;
   chomp;
   print "  $bh01";
@@ -27,12 +27,12 @@ sub processCard {
   $y=0;
   for ($y=1; $y<16; $y++) {
     $header=<CARD>;
-    print "Card $cardNum Block $y:";
+    print "Card $cardNum Sector $y:";
     $keya=substr($header,0,12);
     $accessBits=substr($header,12,8);
     $keyb=substr($header,20,12);
     # print "$header";
-    print "KEYS: (A)$keya : (B)$key (Access Bits)$accessBits";
+    print "KEYS: (A)$keya : (B)$keyb (Access Bits)$accessBits";
     $data0=<CARD>;
     $data1=<CARD>;
     $data2=<CARD>;
@@ -44,8 +44,8 @@ sub processCard {
     } else {
       print " (all zeroes, no data)\n";
     };
-    $thisblock=$block[$y];
-    $thisata=$data[$y];
+    #$thissector=$sector[$y];
+    #$thisata=$data[$y];
   };
   return;
 };
